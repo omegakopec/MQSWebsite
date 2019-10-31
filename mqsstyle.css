@@ -1,0 +1,204 @@
+/* This file dictates how the entire website will look */
+
+#snakes {
+    width: 385px;
+    height: 447px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+body {
+    background-color: #2d230d;
+    width: 750px;
+    margin: auto;}
+
+h1{
+    margin: 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 48px;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;}
+/* This is the main header, i.e. Montgomery Q Stewart */
+
+/* Header 2 is used for sections and chapters. H2 Title is used for titles. */
+h2{ 
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: center;}
+
+H2.title{
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    text-align: center;}
+
+
+/*h3 is towards the bottom, in the section for short story buttons.*/
+
+p {
+    text-indent: 2em;
+    word-spacing: 2px;}
+
+p.eros {
+     text-indent: 0em;}
+/*Specifically for Erotic Adventures*/
+
+p.chat-member {
+     margin-bottom: 0px;
+     font-size: 14px;
+     font-weight: bold;
+     text-indent: 0em;}
+/*chat-member and text-message are both specifically for Apollodorus Lost...*/
+
+p.text-message {
+     margin-top: 0px;
+     margin-right: 150px;
+     font-size: 16px;}
+/*chat-member and text-message are both specifically for Apollodorus Lost...*/
+
+article{
+    font-size: 16px;
+    color: #33332e;
+    margin-left: 70px;
+    margin-right: 70px;}
+
+/* This helps to maintain the style of the other links. */
+a{
+     color: #000000;
+     text-decoration: none;}
+
+/* NAV BAR STUFF */
+nav ul{
+    margin: 5px;
+    text-align: center;
+    word-spacing: 2em;}
+
+nav li{
+    display: inline;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;}
+
+nav li a:visited{
+    color: #000000;
+    text-decoration: none;}
+
+nav li a:hover{
+    color: #000000;
+    text-decoration: underline;}
+
+nav li a.current{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;}
+/* End of NAV BAR STUFF */
+
+/* These are for centered links that appear next to each other */
+.regular-links {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;}
+
+li.regular-links:hover {
+    text-decoration: underline;}
+
+ul li.regular-links a:visited {
+    color: #3e3e38;}
+
+li.regular-links {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;}
+
+#page{
+     position: relative;
+     background-color: #ecd8a4;
+     border: 2px solid #000000;}
+/*the page is relative only so that the social media icons may be placed in absolute*/
+
+footer{
+    text-align: center;
+    padding: 40px;}
+
+#twitter {
+    position: absolute;
+    top: 7px;
+    right: 50px;
+    width: 37px;
+    height: 37px;}
+
+#instagram {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 35px;
+    height: 35px;}
+
+#sexy-man {
+    float: left;
+    border: 1px black solid;
+    margin-right: 30px;
+    width: 270px;
+    height: 330px;}
+/* Author's photo */
+
+/* These control how the short story buttons look */
+
+div.story {
+   background-color: #827864;
+   width: 680px;
+   height: 180px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   overflow: hidden;}
+
+div.story:hover{
+   box-shadow: 5px 5px 5px 5px #777777;}
+
+p.preview {
+   text-indent: 0em;
+   margin-top: 0px;
+   margin-right: 5px;
+   color: #000000;}
+/*text indent is set to 0 because "p" automatically indents and spaces the words out*/
+
+img.ikon {
+   width: 180px;
+   height: 180px;
+   float: left;
+   margin-right: 5px;
+   background: #000000;}
+
+h3 {
+   font-size: 24px;
+   margin: 0px;
+   color: #000000;
+   font-variant: small-caps;
+   margin-bottom: 0px;}
+
+/* These control how the "books" page is laid out */
+
+h2.bookstore{ 
+    margin: 0px;}
+
+section.bookstore {
+    font-size: 18px;
+    color: #33332e;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 45px;
+    width: 710px;
+    height: 352;
+    overflow: hidden;}
+
+img.book-cover {
+     float: left;
+     width: 220px;
+     height: 352px;
+     margin-right: 10px;}
+
+
+

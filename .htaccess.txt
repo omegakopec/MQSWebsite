@@ -1,0 +1,1 @@
+add type application/xhttpd-php .htm .html
